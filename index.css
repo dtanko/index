@@ -1,0 +1,42 @@
+body{
+    background-image: url('bckg1.jpg'); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size:20px;
+    ;}
+
+ul{font-size: 25px;
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    overflow:scroll;
+    background-color: rgb(226, 169, 83);
+    }
+ ul {
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: rgb(83, 148, 86);}
+li{display:inline;}
+    .active {
+        background-color: #04AA6D;}  
+/* Add a gray right border to all list items, except the last item (last-child) */
+li {
+    border-right: 1px solid #bbb;
+    text-decoration: none;
+  }
+  
+  li:last-child {
+    border-right: none;}       
+div{margin: 100;
+    font-size: 14;
+    text-align:center;
+    line-height: 0.2;
+    color:wheat} 
+h1{text-shadow: 2px 2px 5px #a6fbb2;
+    text-align:center;}
+mark{background-color:#f1ebda;}
